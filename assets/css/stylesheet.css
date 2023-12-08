@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.NavBarColor{
+  background-color: white;
+  border: none;
+  margin: 0 0;
+  padding: 5px 0;
+  color: #1977cc;
+}
+
+.BannerImage{
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: calc(100vh - 70px);
+}
+.BannerImagebox{
+  background-color: #00000098;
+  width: 100%;
+  height: 100vh;
+}
+.SignUpInBox{
+  background-color: #ffffffaf;
+  min-width: 30vw;
+  min-height: 10vh;
+  /* margin: 10vh 10vw 10vh 12vw; */
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10vh 0;
+}
+.ColorBlue{
+  color: #1977cc;
+}
+.ColorBlue:hover{
+  background-color: #1977cc;
+  border-radius: 50px;
+  color: white;
+}
+.ColorBlue:active{
+  background-color: #1977cc;
+}
+
+.Center{
+  text-align: center;
+}
+.mb-3{
+  margin: 30px 0;
+}
+.mtb-4{
+  margin: 40px 0;
+
+}
+
+.ButtonBlue{
+  text-align: center;
+  background-color: #1977cc;
+  padding: 10px 15px;
+  border-radius: 50px;
+  width: calc(100% - 55%);
+  /* margin: 0 25%; */
+}
+
+.Margin-25{
+  margin: 0 25%;
+}
+.ButtonBlue:hover{
+  background-color: #0c3f6b;
+}
+
+
+
+.HeroBanner{
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+}
+.HeroBanner::before{
+  background-color: #00000093;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.H1style{
+  margin: 200px 0 30px 0;
+}
+.ColorWhite{
+  color: white;
+}
+.Size{
+  font-size: 20px;
+  margin: 0 0 200px 0;
+}
+
+
+.ProductBox
+{
+  height: 400px;
+  width: auto;
+  border: 1px solid #00000080;
+  padding: 25px;
+
+}
+img{
+  width: 80%;
+  height: 60%;
+}
+
+
+.FilterButton
+{
+  background-color: #1977cc;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+
+.shopnowbutton{
+  width: 100px;
+  padding: 6px;
+  background-color: #1977cc;
+  border-radius: 25px;
+  color: #ffffff;
+  border: none;
+}
+.shopnowbutton:hover {
+  background-color: #0c3f6b;
+}
+
+
+.cartbox{
+  
+  min-height: 300px;
+  box-shadow: 2px 2px 15px 3px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.cartimg{
+  height: 300px;
+  width: 80%;
+}
+.ml{
+  margin-left: 30px;
+}
+.mt15{
+  margin-top: 15px;
+}
+
+.m15{
+  margin: 15px;
+}
+.quantatybutton{
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+.addressbox{
+  min-height: 50px;
+  background-color: #000000a8;
+  padding: 15px;
+}
+.tablestyle{
+  width: 100%;
+  margin: 30px;
+}
+.tablestyle th{
+  padding: 20px;
+  text-align: center;
+}
+.confirmpayment{
+  background-color: #1977cc;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
+
+}
+.confirmpayment:hover{
+  background-color: #0c3f6b;
+  border: none;
+}
+.alignright{
+  text-align: right;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shop</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../fonts/all.css">
+	<link rel="stylesheet" href="../css/stylesheet.css">
+
+</head>
+<body onload="fetchdata()">
+
+	
+	<header class="NavBarColor">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					
+					<nav class="navbar navbar-default NavBarColor" role="navigation">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Shop</a>
+						</div>
+					
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							
+							
+							<ul class="nav navbar-nav navbar-right">
+								<form class="navbar-form navbar-left" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search">
+									</div>
+									<button type="submit" class="btn btn-default"><i class="fa-solid fa-magnifying-glass"></i></button>
+								</form>
+								<li class="ColorBlue"><a href="home.html">Home</a></li>
+								<li class="ColorBlue"><a href="#">About</a></li>
+								<li class="dropdown ColorBlue">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Category <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="ColorBlue"><a href="home.html">Accessories</a></li>
+										<li class="ColorBlue"><a href="home.html">Mens</a></li>
+										<li class="ColorBlue"><a href="home.html">Womens</a></li>
+										<li class="ColorBlue"><a href="home.html">Electronics</a></li>
+									</ul>
+								</li>
+								<li class="ColorBlue"><a href="../pages/user.html"><i class="fa-solid fa-user"></i></a></li>
+								<li class="ColorBlue"><a href="../pages/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</nav>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- login -->
+	<section class="HeroBanner">
+		<div class="container ">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="ColorWhite H1style"><b>Welcom to shop</b></h1>
+                    <p class="ColorWhite Size">If shopping doesn't make you happy, then you're in the wrong shop.</p>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 mtb-4">
+                    <div class="Center">
+                        <h2><b>Product List</b></h2>
+                    </div>
+                </div>
+                <form action="" role="form">
+                    
+                    <div class="col-lg-4 mb-3">
+
+                            <div class="form-group">
+
+                                <select name="" id="" class="form-control FilterSetting">
+                                    <option value="" selected>Filter by Price</option>
+                                    <option value="100-999">Rs.100 to Rs.999</option>
+                                    <option value="1000-9999">Rs.1000 to Rs.9999</option>
+                                    <option value="10000-99999">Rs.10000 to Rs.99999</option>
+
+                                </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mb-3">
+                    
+                        <div class="form-group">
+                            <select name="" id="" class="form-control FilterSetting">
+                                <option value="" selected>Filter by Discount Range</option>
+                                <option value="10%">10%</option>
+                                <option value="20%">20%</option>
+                                <option value="50%">50%</option>
+
+                            </select>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mb-3">
+                    
+                    <div class="form-group">
+                        <select name="" id="" class="form-control FilterSetting">
+                            <option value="" selected>Filter by Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+
+                        </select>
+                    </div>
+                </div>
+
+            <div class="Center">
+                <button type="button" class="btn btn-primary FilterButton">Filter</button>
+                <button type="clear" class="btn btn-primary FilterButton">Claer Filter</button>
+            </div>
+
+
+                </form>               
+                <div id="product">
+
+
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div>
+                <div class="col-lg-4 col-md-6 mtb-4">
+                    <div class="ProductBox">
+
+                    </div>
+                                        
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+	<footer class="container SearchPageColor">
+        <div class="container text-center">
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href="/">© 2013 Company Name.</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		</footer>
+
+	<!-- script -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/js.js"></script>
+
+</body>
+</html>

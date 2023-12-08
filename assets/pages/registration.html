@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shop</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../fonts/all.css">
+	<link rel="stylesheet" href="../css/stylesheet.css">
+
+</head>
+<body class="BannerImage">
+
+	
+	<header class="NavBarColor">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					
+					<nav class="navbar navbar-default NavBarColor " role="navigation">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Shop</a>
+						</div>
+					
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							
+							
+							<ul class="nav navbar-nav navbar-right">
+								<form class="navbar-form navbar-left" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search">
+									</div>
+									<button type="submit" class="btn btn-default"><i class="fa-solid fa-magnifying-glass"></i></button>
+								</form>
+								<li class="ColorBlue"><a href="home.html">Home</a></li>
+								<li class="ColorBlue"><a href="#">About</a></li>
+								<li class="dropdown ColorBlue">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Category <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="ColorBlue"><a href="home.html">Accessories</a></li>
+										<li class="ColorBlue"><a href="home.html">Mens</a></li>
+										<li class="ColorBlue"><a href="home.html">Womens</a></li>
+										<li class="ColorBlue"><a href="home.html">Electronics</a></li>
+									</ul>
+								</li>
+								<li class="ColorBlue"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</nav>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- login -->
+	<section class="BannerImagebox">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <div class="SignUpInBox">
+                        <form action="" id="registrationform">
+                            <div class="mb-3 Center">
+                                <h3>Sign up</h3>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Enter Your Full Name"
+                                    id="name"
+                                />
+                                <span id="namevalidation"></span>
+                            </div>
+
+                            <!--  -->
+
+                            <!--  -->
+                            <div class="mb-3">
+                                <label for="" class="form-label">Email</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    name=""
+                                    id="email"
+                                    aria-describedby="emailHelpId"
+                                    placeholder="abc@mail.com"
+                                />
+                                <span id="emailvalidation"></span>
+
+                                <!-- <small id="emailHelpId" class="form-text text-muted">Help text</small> -->
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Phone No</label>
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    name=""
+                                    id="phoneno"
+                                    placeholder="Enter your Phone No"
+                                />
+                                <span id="phonenovalidation"></span>
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Password</label>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    name=""
+                                    id="password"
+                                    placeholder="Enter your Password"
+                                />
+                                <span id="passwordvalidation"></span>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Confirm Password</label>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    name=""
+                                    id="confirmpassword"
+                                    placeholder="Enter your Confirm Password"
+                                />
+                                <span id="confirmpasswordvalidation"></span>
+
+                            </div>
+                            <div class="Center mb-3 ">
+                                <button type="button" class="btn btn-primary ButtonBlue" onclick="registration()">
+                                      Sign Up
+                                </button>
+                                <button type="reset" class="btn btn-primary ButtonBlue">Clear</button>
+                            </div>
+                            <div class="mb-3 Center">
+                                <p>
+                                    Have an account? <a href="../../index.html"><b>Log in</b></a>
+                                </p>
+                            </div>
+                            <div class="mb-3 Center">
+                                <p>
+                                    <a href="home.html">Skip</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+
+
+
+
+
+
+	<!-- script -->
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/bootstrap.min.js"></script>
+	<script src="../js/js.js"></script>
+
+</body>
+</html>
